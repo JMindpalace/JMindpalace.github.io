@@ -5,7 +5,7 @@ title:  "C & C++ Basic code"
 
 # C & C++ Basic code
 
-  C
+  C \n
     printf("");
   
   C++
