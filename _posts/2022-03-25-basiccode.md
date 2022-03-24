@@ -6,7 +6,13 @@ title:  "C & C++ Basic code"
 # C & C++ Basic code
 
   C
-    printf();
+    printf("");
   
   C++
     cout << "" << endl;
+  
+  "" in
+  %d = number
+  %f = real num
+  %g = 
+  %c = one charter(word)
