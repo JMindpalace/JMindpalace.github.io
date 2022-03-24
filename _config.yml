@@ -93,14 +93,15 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
+
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jae Hui Kim" #left name?
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
-  links:
+  location         : "Korea"
+  email            : 
+  links: # 이메일 , 웹사이트 , 트위터 , 페이스북 , 깃허브 , 
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
