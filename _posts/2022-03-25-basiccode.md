@@ -13,6 +13,14 @@ title:  "C & C++ Basic code"
   
   "" in
   %d = number
-  %f = real num
-  %g = 
+  %.0f = real num(.num)
+  %lf = double
+  %e = real num exponential
+  %g = law size = f // big size = e
+  
   %c = one charter(word)
+  %s = word
+  
+  %p = pointer 16bit
+  %x = 16bit
+  %o = 8bit
