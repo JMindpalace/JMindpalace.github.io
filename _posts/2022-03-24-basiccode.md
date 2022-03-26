@@ -19,7 +19,7 @@ title:  "C & C++ Basic code"
   %g = law size = f // big size = e
   
   %c = one charter(word)
-  %s = word
+  %s = sentence
   
   %p = pointer 16bit
   %x = 16bit
