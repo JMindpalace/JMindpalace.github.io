@@ -28,5 +28,5 @@ title:  "C & C++ Basic code"
 Data type - variable(data type name) = value;
   type = char&bool , int , float&double // byte , short , long
   
-Value Calcution
+Value Calcution - unsigned(- -> all +)
 + - * /(quotient) %(remainder)
