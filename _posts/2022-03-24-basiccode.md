@@ -31,4 +31,4 @@ Data type - variable(data type name) = value;
   temporarily type change = (type)var
   
 Value Calcution - unsigned(- -> all +)
-+ - * /(quotient) %(remainder)
+'+ '- '* /(quotient) %(remainder)
