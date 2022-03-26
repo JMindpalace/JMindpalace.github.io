@@ -7,7 +7,7 @@ title:  "C & C++ Basic code"
   // /* */
   C 
     printf("");
-  
+    scanf("%", &);
   C++
     cout << "" << endl;
   
@@ -27,6 +27,8 @@ title:  "C & C++ Basic code"
 
 Data type - variable(data type name) = value;
   type = char&bool , int , float&double // byte , short , long
+  type check = sizeof(type)
+  temporarily type change = (type)var
   
 Value Calcution - unsigned(- -> all +)
 + - * /(quotient) %(remainder)
