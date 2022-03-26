@@ -4,7 +4,7 @@ title:  "C & C++ Basic code"
 ---
 
 # C & C++ Basic code
-
+  // /* */
   C 
     printf("");
   
@@ -24,3 +24,9 @@ title:  "C & C++ Basic code"
   %p = pointer 16bit
   %x = 16bit
   %o = 8bit
+
+Data type - variable(data type name) = value;
+  type = char&bool , int , float&double // byte , short , long
+  
+Value Calcution
++ - * /(quotient) %(remainder)
