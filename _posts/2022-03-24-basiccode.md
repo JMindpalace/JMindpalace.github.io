@@ -12,7 +12,8 @@ title:  "C & C++ Basic code"
      C++
       cout << "" << endl;
       std::sin >> "";
-  
+    
+# 
   
     "" in
     %d = number
