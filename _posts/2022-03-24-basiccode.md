@@ -13,6 +13,7 @@ title:  "C & C++ Basic code"
       cout << "" << endl;
       std::sin >> "";
   
+  
     "" in
     %d = number
     %.0f = real num(.num)
