@@ -40,7 +40,14 @@ title:  "C & C++ Basic code"
       #include<math.h> -- pow( , ) // sqrt()
 
 #
-    if~eles
+    if(condition 1) { 1 - true sen }
+    elesif(condition 2) {}
+    else {all false}
+#
+    switch ()
+    case n: break
+    default:
+#
     while(do)
-    switch-break
-    go-to
+#
+    go-to x // x:
