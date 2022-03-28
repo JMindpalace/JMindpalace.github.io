@@ -12,9 +12,7 @@ title:  "C & C++ Basic code"
      C++
       cout << "" << endl;
       std::sin >> "";
-    
 # 
-  
     "" in
     %d = number
     %.0f = real num(.num)
@@ -28,12 +26,12 @@ title:  "C & C++ Basic code"
     %p = pointer 16bit
     %x = 16bit
     %o = 8bit
-
+#
     Data type - variable(data type name) = value;
       type = char&bool , int , float&double // byte , short , long
       type check = sizeof(type)
       temporarily type change = (type)var
-  
+#
     Value Calcution - unsigned(- -> all +)
       '+ '- '* /(quotient) %(remainder)
       #include<math.h> -- pow( , ) // sqrt()
