@@ -4,9 +4,9 @@ title:  "C & C++ Basic code"
 ---
 
 # C & C++ Basic code
-    # //
-    # /* */
-  
+    //
+    /* */
+#
     C 
       printf("");
       scanf("%", &);
