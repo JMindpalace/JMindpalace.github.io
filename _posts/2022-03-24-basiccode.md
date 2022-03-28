@@ -43,11 +43,12 @@ title:  "C & C++ Basic code"
     if(condition 1) { 1 - true sen }
     elesif(condition 2) {}
     else {all false}
-#
+
     switch ()
     case n: break
     default:
-#
-    while(do)
-#
+
     go-to x // x:
+
+#
+    for
