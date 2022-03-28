@@ -38,3 +38,9 @@ title:  "C & C++ Basic code"
       +=  -=  *=  /=  %/  ++  --
       >  <  ==  >=  <=  !=  // bit - &  |  !  //  &&  ||
       #include<math.h> -- pow( , ) // sqrt()
+
+#
+    if~eles
+    while(do)
+    switch-break
+    go-to
