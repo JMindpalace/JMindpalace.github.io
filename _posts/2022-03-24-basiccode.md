@@ -36,4 +36,5 @@ title:  "C & C++ Basic code"
     Value Calcution - unsigned(- -> all +)
       '+ '- '* /(quotient) %(remainder)
       +=  -=  *=  /=  %/  ++  --
+      >  <  ==  >=  <=
       #include<math.h> -- pow( , ) // sqrt()
