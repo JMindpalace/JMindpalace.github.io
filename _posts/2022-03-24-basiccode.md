@@ -5,11 +5,13 @@ title:  "C & C++ Basic code"
 
 # C & C++ Basic code
   // /* */
+  
   C 
     printf("");
     scanf("%", &);
   C++
     cout << "" << endl;
+    std::sin >> "";
   
   "" in
   %d = number
