@@ -51,4 +51,12 @@ title:  "C & C++ Basic code"
     x: -- go-to x
 
 #
-    for
+    while(true condition) {
+          true sentence }
+    
+    do {
+      true sentence
+    } while(true condition)
+    
+    for(;true condition;){
+          true sentence }
