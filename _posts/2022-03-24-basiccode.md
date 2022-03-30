@@ -58,5 +58,8 @@ title:  "C & C++ Basic code"
       true sentence
     } while(true condition)
     
-    for(;true condition;){
+    for(0~2; true condition; 0~2){
           true sentence }
+    
+    break; // out of for {}
+    continue; // skip 1time to for
