@@ -63,3 +63,12 @@ title:  "C & C++ Basic code"
     
     break; // out of for {}
     continue; // skip 1time to for
+
+#
+    Array
+    data type  value[array size];
+    if arr size skip => int a[] = { , , , , ... };
+    ★ array start = 0 ~ n-1 (n = array size)
+    
+    n dimension Array
+    data type  value[1 dimension array size][2 dim arr size];
