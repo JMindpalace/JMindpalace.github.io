@@ -72,3 +72,6 @@ title:  "C & C++ Basic code"
     
     n dimension Array
     data type  value[1 dimension array size][2 dim arr size];
+    
+#
+    C String - char s[size]; scanf("%s", s);
