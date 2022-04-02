@@ -74,4 +74,9 @@ title:  "C & C++ Basic code"
     data type  value[1 dimension array size][2 dim arr size];
     
 #
-    C String - char s[size]; scanf("%s", s);
+    C String -- <string.h>
+    char s[size]; scanf("%s", s);
+    strlen(var); // string size
+    strcpy(to copy2 , from copy1);
+    strcat(var, "+string");
+    strcmp(compare1, compare2);
