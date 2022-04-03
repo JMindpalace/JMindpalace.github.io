@@ -34,6 +34,8 @@ title:  "C & C++ Basic code"
       temporarily type change = (type)var
 #
     Value Calcution - unsigned(- -> all + // %u)
+      literal -- long / longlong // un int / un long // un long / un long long
+        ("%ld", L / "%lld", LL) // ("%u", U / "%lu", UL) // ("%lu", UL / "%llu", ULL)
       '+ '- '* /(quotient) %(remainder)
       +=  -=  *=  /=  %/  ++  --  //  var<<num(2^1, 2^2 ---)  var>>num(2^-1, 2^-2 ---)
       >  <  ==  >=  <=  !=  // bit - &  |  !  //  &&  ||
