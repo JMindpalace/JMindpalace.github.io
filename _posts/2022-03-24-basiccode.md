@@ -33,7 +33,7 @@ title:  "C & C++ Basic code"
       type check = sizeof(type)
       temporarily type change = (type)var
 #
-    Value Calcution - unsigned(- -> all +)
+    Value Calcution - unsigned(- -> all + // %u)
       '+ '- '* /(quotient) %(remainder)
       +=  -=  *=  /=  %/  ++  --  //  var<<num(2^1, 2^2 ---)  var>>num(2^-1, 2^-2 ---)
       >  <  ==  >=  <=  !=  // bit - &  |  !  //  &&  ||
