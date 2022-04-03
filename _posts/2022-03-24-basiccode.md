@@ -3,11 +3,6 @@ layout: post
 title:  "C & C++ Basic code"
 ---
 
----
-layout: post
-title:  "C & C++ Basic code"
----
-
 # C & C++ Basic code
     //
     /* */
@@ -88,13 +83,24 @@ title:  "C & C++ Basic code"
 
 #
     pointer = var address = * | &
-    datatype *var = another var address;
-    + **var = another pointer address;
+    datatype *var = pointing var address; // int *ptr = &arr;
+    + **var = another pointer address;   // int **prt_a == *ptr;
+    // 기본 포인터는 1차원 배열로 입출력 ∴ 2차원 이상의 접근은 배열-포인터가 필요함
     
     Array - Pointer relationship
-    pointer +1(calcution) => datatype as much as change // int ptr +1 => 00000000 +1 = 00000004
+    pointer +1(calcution) => datatype as much as change
+      // int *ptr +1 => 00000000 +1 = 00000004  <-> &(*ptr) +1 => 00000000 +1 = 00000012
     int arr[]; int *ptr = &arr // arr == &arr[0] = ptr == &ptr[0] -> arr+1~
-    // arr[i] == *(arr+1) == *(ptr+1) == *(1+ptr) == ?? i[ptr]
+    // *ptr == arr[i] == *(arr+i) == *(ptr+i) == *(i+ptr) == ?? i[ptr]
+    
+    pointer-arr(int arr[];)
+    datatype (*var)[] = pointing var address; // int (*ptr_arr)[] = &arr;  +  *prt_cop = *ptr_arr == &(*ptr_arr)[0]
+    
+    
+    
+    
+    
+    
     
     
     
