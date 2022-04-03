@@ -3,6 +3,11 @@ layout: post
 title:  "C & C++ Basic code"
 ---
 
+---
+layout: post
+title:  "C & C++ Basic code"
+---
+
 # C & C++ Basic code
     //
     /* */
