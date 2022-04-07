@@ -36,7 +36,8 @@ title:  "C & C++ Basic code"
     Value Calcution - unsigned(- -> all + // %u)
       literal(print value exp) -- long / longlong // un int / un long // un long / un long long
         ("%ld", L / "%lld", LL) // ("%u", U / "%lu", UL) // ("%lu", UL / "%llu", ULL)
-      '+ '- '* /(quotient) %(remainder)
+      '+ '- '*
+      // (quotient&remainder) - / %  = a/b = b√a
       +=  -=  *=  /=  %/  ++  --  //  var<<num(2^1, 2^2 ---)  var>>num(2^-1, 2^-2 ---)
       >  <  ==  >=  <=  !=  // bit - &  |  !  //  &&  ||
       #include<math.h> -- pow( , ) // sqrt()
