@@ -86,6 +86,13 @@ title:  "C & C++ Basic code"
 
 #
     pointer = var address = * | &
+    
+    /*
+        포인터의 * 위치
+        int *pit = &a;  ≠ int *pit; *pit=20;
+        전자는 초기화    ≠ 후자는 초기화를 했다면 지정 주소의 값 변경
+    */
+    
     datatype *var = pointing var address; // int *ptr = &arr;
     + **var = another pointer address;   // int **prt_a == *ptr;
     // 기본 포인터는 1차원 배열로 입출력 ∴ 2차원 이상의 접근은 배열-포인터가 필요함
@@ -94,7 +101,7 @@ title:  "C & C++ Basic code"
     pointer +1(calcution) => datatype as much as change
       // int *ptr +1 => 00000000 +1 = 00000004  <-> &(*ptr) +1 => 00000000 +1 = 00000012
     int arr[]; int *ptr = &arr // arr == &arr[0] = ptr == &ptr[0] -> arr+1~
-    // *ptr == arr[i] == *(arr+i) == *(ptr+i) == *(i+ptr) == ?? i[ptr]
+    // *ptr = arr;  arr[i] == *(arr+i) == *(ptr+i) =(교환)= *(i+ptr) == ?? i[ptr]
     
     /*
         arr이라는 배열 변수 이름은 &arr로 변수 자체로 주소값을 가지고 있다.
@@ -114,7 +121,8 @@ title:  "C & C++ Basic code"
     */
     
     pointer-arr(int arr[];)
-    datatype (*var)[] = pointing var address; // int (*ptr_arr)[] = &arr;  +  *prt_cop = *ptr_arr == &(*ptr_arr)[0]
+    datatype (*var)[] = pointing var address;
+    // int (*ptr_arr)[] = &arr;  +  *prt_cop = *ptr_arr == &(*ptr_arr)[0]
     
     
     
