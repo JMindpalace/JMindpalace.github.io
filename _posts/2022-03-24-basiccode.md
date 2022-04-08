@@ -68,7 +68,7 @@ title:  "C & C++ Basic code"
     continue; // skip 1time to for
 
 #
-    Array
+    Array // [열][행] --  [z][y][x]
     data type  value[array size];
     if arr size skip => int a[] = { , , , , ... };
     ★ array start = 0 ~ n-1 (n = array size)
@@ -98,9 +98,10 @@ title:  "C & C++ Basic code"
     // 기본 포인터는 1차원 배열로 입출력 ∴ 2차원 이상의 접근은 배열-포인터가 필요함
     
     Array - Pointer relationship
-    pointer +1(calcution) => datatype as much as change
+    pointer +1(calcution) => datatype as much as change(포인터 +는 주소값의+, 주소값의 크기는 자료형)
+      // arr+n은 &arr[0]과 같기에 배열 [1]개의 크기 <-> &arr+n은 배열 [전체]의 크기
       // int *ptr +1 => 00000000 +1 = 00000004  <-> &(*ptr) +1 => 00000000 +1 = 00000012
-    int arr[]; int *ptr = &arr // arr == &arr[0] = ptr == &ptr[0] -> arr+1~
+    
     // *ptr = arr;  arr[i] == *(arr+i) == *(ptr+i) =(교환)= *(i+ptr) == ?? i[ptr]
     
     /*
@@ -111,18 +112,21 @@ title:  "C & C++ Basic code"
         // 이로인해 프로그램은 arr이라는 배열 자체는 &arr로 변경 후 컴파일러(?)를 예상함
         
         // 추가) 기존에 사용하는 arr[i]는 값이 출력된다 -- arr은 &arr로 변경 + arr[i] 값 ≠> &arr[i] 주소
+        // 하지만) arr과 &arr의 출력값은 같으므로 &&는 &로 1회만 실행됨을 짐작
         
         (그렇다면 배열의 '[]'의미는 [] == * 로 해석할 수 있다) arr[i]
         (이는 추가로 []를 소괄호로 치환을 한다면) arr[i] == *(arr+i) ==> [] = *()
         
         ∴ arr이라는 배열 변수이름은 그 자체로 &arr로 주소값을 가지지만 '[]'로 표현이 변한다!
         주소를 가르키는 'arr+i == &arr+i'과
-          값을 가르키는 'arr[i] == *(arr+i)'을 완벽하게 구분하자!
+          값을 가르키는 'arr[i] == *(arr+i) =(i가 0이라면)= *(arr)'을 완벽하게 구분하자!
     */
     
-    pointer-arr(int arr[];)
+    pointer-arr(int arr[];) - 배열포인터는 1차원은 의미가 거의 없음 => 포인터가 배열을 가르키면 자동적으로 1차원 배열형식으로 처리하기 때문!
+    // 포인터의 배열이 아니기에 ()로 묶고, 가르키는 배열의 크기를 []담는다
+    // 기존 포인터가 자동 1차원이기에 *ptr[]의 []에는 [0]이 된다 -- 배열의 시작은 0이기에 생략되었다고 보면 *ptr == *ptr[1]
     datatype (*var)[] = pointing var address;
-    // int (*ptr_arr)[] = &arr;  +  *prt_cop = *ptr_arr == &(*ptr_arr)[0]
+    // int (*ptr_arr)[] = &arr;  +  *prt_cop = *ptr_arr == &(*ptr_arr)[0] -- (*ptr)[] == arr;
     
     
     
