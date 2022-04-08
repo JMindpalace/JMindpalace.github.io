@@ -96,6 +96,23 @@ title:  "C & C++ Basic code"
     int arr[]; int *ptr = &arr // arr == &arr[0] = ptr == &ptr[0] -> arr+1~
     // *ptr == arr[i] == *(arr+i) == *(ptr+i) == *(i+ptr) == ?? i[ptr]
     
+    /*
+        arr이라는 배열 변수 이름은 &arr로 변수 자체로 주소값을 가지고 있다.
+        (양변에 +i - i는 배열의 번째) arr+i == &arr+i  ==> 이는 배열 주소값으로 i번째의 '주소값'을 찾는다
+        
+        // (양변에 *추가 - * 값을 인쇄) *(arr+i) ≠ *(&arr+i)  -- 전자는 값 ≠ 후자는 *(&&arr+i)로 주소값을 인쇄
+        // 이로인해 프로그램은 arr이라는 배열 자체는 &arr로 변경 후 컴파일러(?)를 예상함
+        
+        // 추가) 기존에 사용하는 arr[i]는 값이 출력된다 -- arr은 &arr로 변경 + arr[i] 값 ≠> &arr[i] 주소
+        
+        (그렇다면 배열의 '[]'의미는 [] == * 로 해석할 수 있다) arr[i]
+        (이는 추가로 []를 소괄호로 치환을 한다면) arr[i] == *(arr+i) ==> [] = *()
+        
+        ∴ arr이라는 배열 변수이름은 그 자체로 &arr로 주소값을 가지지만 '[]'로 표현이 변한다!
+        주소를 가르키는 'arr+i == &arr+i'과
+          값을 가르키는 'arr[i] == *(arr+i)'을 완벽하게 구분하자!
+    */
+    
     pointer-arr(int arr[];)
     datatype (*var)[] = pointing var address; // int (*ptr_arr)[] = &arr;  +  *prt_cop = *ptr_arr == &(*ptr_arr)[0]
     
