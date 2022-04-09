@@ -68,7 +68,7 @@ title:  "C & C++ Basic code"
     continue; // skip 1time to for
 
 #
-    Array // [열][행] --  [z][y][x]
+    Array // [행][열] --  [x][y]  -- 1차원 [y]  --> 2차원 [x][y]로 []는 뒤가 아닌 앞에 
     data type  value[array size];
     if arr size skip => int a[] = { , , , , ... };
     ★ array start = 0 ~ n-1 (n = array size)
@@ -128,8 +128,13 @@ title:  "C & C++ Basic code"
     datatype (*var)[] = pointing var address;
     // int (*ptr_arr)[] = &arr;  +  *prt_cop = *ptr_arr == &(*ptr_arr)[0] -- (*ptr)[] == arr;
     
+    // p-a(int (*var[]))는 다른 값의 주소값 1개를 가지는 포인터
+    // a-p(int *var[])는 여러 개의 주소값을 가지는 포인터
     
-    
+    arr-pointer
+    datatype *var[]; // 여러 개의 주소값을 가지므로 for로 초기화
+    // 문자배열의 %s출력의 경우 시작주소~\n까지 출력함을 이용하여
+    // char a[30][30]; int *ptr[30]; for(*ptr[i] = a[i][0])  --> %s, *ptr[i]면 문자가 출력이된다
     
     
     
