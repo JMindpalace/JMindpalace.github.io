@@ -143,8 +143,14 @@ title:  "C & C++ Basic code"
     // 문자배열의 %s출력의 경우 시작주소~\n까지 출력함을 이용하여
     // char a[30][30]; int *ptr[30]; for(*ptr[i] = a[i][0])  --> %s, *ptr[i]면 문자가 출력이된다
     
+    function - using var : local --> global  && (parameter) 
+    void func_name(int var){}  //  use other func  -->  func_name(num);
     
+    func  < - parameter & return - > func
     
+    call-by-value : func(a, b) --> void func(int a, int b)
+    call-by-reference : func(&a, &b)  --> void func(int *a, int *b)
     
+    prototype : #include ~  void func(); void func();  ~ main
     
     
