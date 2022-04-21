@@ -150,7 +150,15 @@ title:  "C & C++ Basic code"
     
     call-by-value : func(a, b) --> void func(int a, int b)
     call-by-reference : func(&a, &b)  --> void func(int *a, int *b)
+              cbr-arr : func(arr)     --> void func(int *arr / int (*arr)[] )
     
     prototype : #include ~  void func(); void func();  ~ main
+    
+    // 재귀함수 - recursion -- stress test
+    
+    
+    
+    
+    
     
     
