@@ -176,3 +176,33 @@ title:  "C & C++ Basic code"
     struct in func
     struct cc { int a, b, c;  int cplus() { return a+b+c; } };  <-- cc p = { 1, 2, 3};  p.cplus()
     
+    
+    constant(상수) - enum, macro, const
+    
+    enum Egame { // 초기화 없이도 순서대로 값을 부여함
+        game_state,
+        game_pause,
+        game_start = 5,
+        game_over
+    };
+    
+    #define pi 3.14159
+    
+    const type var = "" ; // const float pi = 3.14;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
