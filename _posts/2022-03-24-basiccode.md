@@ -32,6 +32,7 @@ title:  "C & C++ Basic code"
       type = char&bool , int , float&double // byte , short , long
       type check = sizeof(type)
       temporarily type change = (type)var
+      arr size = char a[n] == char(type) * [n] = x Byte
 #
     Value Calcution - unsigned(- -> all + // %u)
       literal(print value exp) -- long / longlong // un int / un long // un long / un long long
@@ -85,7 +86,7 @@ title:  "C & C++ Basic code"
     strcmp(compare1, compare2);
 
 #
-    pointer = var address = * | &
+    pointer = var address = * | & // char *name = "k" -> printf(name은 값이 )
     
     /*
         포인터의 * 위치
@@ -154,11 +155,24 @@ title:  "C & C++ Basic code"
     
     prototype : #include ~  void func(); void func();  ~ main
     
-    // 재귀함수 - recursion -- stress test
+    // 재귀함수 - recursion -- stress test?
     
     
+    typedef
+    typedef 자료형 선언할 자료형 이름; // typedef int int64; --> typedef char *aa; aa name = ""; --> typedef int point[2]; point pt = {};
     
     
+    Structure type(구조체)
+    typedef struct { 구조체 변수; } 구조체 이름;  // typedef struct { int x, y; } target;
+    (typedef 생략) struct 구조체이름 { 구조체 변수; } ; // struct targer {int x, y;} ;
     
+    target a; a.x = "" , a.y = "" ;
+    or
+    target a = { x, y };
     
+    struct-pointer
+    target *b = &a;  <-(acc)-  (*b).x;  ==  b->x
+    
+    struct in func
+    struct cc { int a, b, c;  int cplus() { return a+b+c; } };  <-- cc p = { 1, 2, 3};  p.cplus()
     
