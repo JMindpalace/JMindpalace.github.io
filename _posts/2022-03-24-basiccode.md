@@ -10,9 +10,10 @@ title:  "C & C++ Basic code"
     C 
       printf("");
       scanf("%", &);
-     C++
-      cout << "" << endl;
-      std::sin >> "";
+    +
+      gets / puts / getchar / putchar
+    +
+      sscanf / sprintf
 # 
     "" in
     %d = number
@@ -186,23 +187,19 @@ title:  "C & C++ Basic code"
         game_over
     };
     
-    #define pi 3.14159
+    #define pi 3.14159  or  #define a printf("");  -- #define a(x) x*x;
     
     const type var = "" ; // const float pi = 3.14;
     
     
+    file I/O -- int n; output -- w or a(w+a) // feof or EOF
+    FILE *var = fopen("file address" , "r or w");
+    fscanf(var , "%d", &n);
+    fprintf(var, "%d", n);
+    
+    -- fclose(var);
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    + func
+    #include<stdlib.h> -> rand(); // 1회 랜덤 후 고정
+    #include<time.h> -> srand(time(NULL)); // 시간을 통해 완전한 랜덤
